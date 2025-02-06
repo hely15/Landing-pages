@@ -1,0 +1,8 @@
+:root{
+    --color-1: #ffffff;
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Black";
+    src: url(../storage/font/avenir-font/AvenirLTStd-Black.otf);
+}
