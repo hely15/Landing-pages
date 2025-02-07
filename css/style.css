@@ -9,3 +9,74 @@ body {
     background-color: var(--color-1);
 }
 
+.div__box {
+    width: 610px;
+    height: 355px;
+    position: absolute;
+    margin-top: 64px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.div__box h1 {
+    text-align: center;
+    color: var(--color-2);
+    font-family: "Avenir-Heavy";
+    font-size: 64px
+}
+.div__box p {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: var(--color-2);
+    opacity: 80%;
+    font-family: "Avenir-Roman";
+    font-size: 26px
+    
+}
+.div__box button {
+    width: 158px;
+    height: 54px;
+    border-radius: 18px;
+    background-color: var(--color-2);
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.div__img1  {
+    width: 1312px;
+    height: 288px;
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.div__img1 div {
+    width: 100%;
+
+}
+.div__img1 div img {
+    height: 288px;
+    position: relative;
+    border-radius: 16px;
+    margin-right: 9px;
+}
+.div__img2 {
+    width: 1312px;
+    height: 288px;
+    position: absolute;
+    top: 780px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.div__img2 div {
+    width: 100%;
+}
+.div__img2 div img{
+    height: 288px;
+    position: relative;
+    border-radius: 16px;
+    margin-right: 9px;
+}
