@@ -20,6 +20,7 @@ span {
     font-size: 72px;
     font-weight: 700;
     line-height: 108px;
+    font-family: "Poppins-Bold";
 }
 span:nth-last-child(3) {
     color: var(--colorTitle1);
@@ -36,8 +37,11 @@ span:nth-last-child(1) {
     font-size: 24px;
     line-height: 36px;
     color: var(--color-1);
+    font-family: "Poppins-Regular";
+
 }
 .section__text button{
+    font-family: "Poppins-Regular";
     position: relative;
     width: 182px;
     height: 66px;
