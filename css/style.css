@@ -4,3 +4,138 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: var(--background);
+}
+h1 {
+    color: var(--color-1);
+}
+P {
+    color: var(--color-1);
+}
+.img__rectangule {
+    position: absolute;
+    width: 676px;
+    height: 304px;
+    top: 757px;
+    left: 64px;
+    border-radius: 32px;
+}
+.div__imgs-Superiror {
+    position: absolute;
+    width: 732px;
+    height: 500px;
+    left: 646px;
+}
+.img__1{
+    width: 348px;
+    height: 473px;       
+}
+.img__2 {
+    position: absolute;
+    width: 348px;
+    height: 473px;
+    left: 384px;      
+}
+.section__cardText {
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 542px;
+    height: 560px;
+    top: 133px;
+    left: 104px;
+    gap: 40px;
+}
+.section__cardText h1 {
+    width: 405px;
+    height: 318px;
+
+    font-family: Lato;
+    font-weight: 800;
+    font-size: 88px;
+    line-height: 105.6px;
+    letter-spacing: 0%;
+    
+}
+.section__cardText p {
+    width: 542px;
+    height: 96px;
+
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;    
+}
+.section__cardText button {
+    display: flex;
+    width: 190px;
+    height: 66px;
+    border-radius: 16px;
+    gap: 10px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    border: none;
+    
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 18px;
+    letter-spacing: 0%;    
+}
+.section__texRight {
+    display: flex;
+    position: absolute;
+    width: 456px;
+    height: 464px;
+    top: 597px;
+    left: 878px;
+    gap: 40px; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start; 
+}
+.hr__line {
+    width: 96px;
+    height: 8px;
+    background-color:  var(--color-1);
+}
+.div__tex {
+    width: 456px;
+    height: 112px;
+    gap: 16px;    
+}
+.div__tex h1 {
+    width: 38px;
+    height: 32px;
+
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0%;    
+}
+.div__tex p {
+    width: 456px;
+    height: 64px;
+
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;    
+}
+.footer__imgs {
+    display: flex;
+    position: absolute;
+    width: 1284px;
+    height: 260px;
+    top: 1133px;
+    left: 64px;
+    gap: 24px;
+    
+}
