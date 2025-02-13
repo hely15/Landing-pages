@@ -130,6 +130,7 @@ body {
     letter-spacing: 0%;
     border: none;   
     background-color: var(--color-2);
+    
 }
 .section__imgs {
     display: flex;
