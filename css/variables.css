@@ -1,8 +1,14 @@
 :root{
     --color-1: #ffffff;
+
+    --color-3: #363032;
 }
 
 @font-face {
     font-family: "AvenirLTStd-Black";
     src: url(../storage/font/avenir-font/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "PlayfairDisplay-Bold";
+    src: url(../storage/font/Playfair_Display/PlayfairDisplay-Bold.ttf);
 }
