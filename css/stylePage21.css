@@ -1,0 +1,80 @@
+@import url(variablesPage21.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: var(--color-1);
+}
+p {
+    color: var(--color-1);
+}
+.section__imgText {
+    width: 1440px;
+    height: 1012px;    
+}
+.section__imgText img {
+    width: 1440px;
+    height: 1012px;    
+}
+.div__text {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: center;
+    width: 637px;
+    height: 327px;
+    top: 343px;
+    left: 402px;
+    gap: 40px;    
+}
+.div__text h1 {
+    width: 637px;
+    height: 88px;    
+    font-family: "Lato-Bold";
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 88px;
+    letter-spacing: 0%;
+    text-align: center;    
+}
+.div__text p {
+    width: 549px;
+    height: 93px;
+    
+    font-family: "Lato-Regular";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31.2px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.div__text button {
+    width: 175px;
+    height: 66px;
+    border-radius: 36px;
+    gap: 10px;
+    padding-top: 24px;
+    padding-right: 48px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    border: none;
+    
+    
+    font-family: "Lato-Medium";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0%;    
+}
+.section__cardsImg {
+    display: flex;
+    width: 1440px;
+    height: 524px;
+    top: 1012px;
+}
+.section__cardsImg img {
+    width: 480px;
+    height: 524px;
+}
