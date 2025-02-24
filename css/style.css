@@ -1,0 +1,43 @@
+@import url(variables.css);
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.numberlist {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #626F47;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+li:hover {
+    background: #A4B465;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
