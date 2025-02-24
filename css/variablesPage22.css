@@ -1,0 +1,29 @@
+:root{
+    --color-1: #ffffff;
+    --background: #010625;
+}
+
+@font-face {
+    font-family: "AvenirLTStd-Black";
+    src: url(../storage/font/avenir-font/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "Lato-ExtraBold";
+    src: url(../storage/font/Lato/Lato-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Lato-Regular";
+    src: url(../storage/font/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "Lato-Medium";
+    src: url(../storage/font/Lato/Lato-Medium.ttf);
+}
+@font-face {
+    font-family: "Lato-Black";
+    src: url(../storage/font/Lato/Lato-Black.ttf);
+}
+@font-face {
+    font-family: "Lato-Light";
+    src: url(../storage/font/Lato/Lato-Light.ttf);
+}
